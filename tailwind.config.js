@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#A44F2C",
+        secondary: "#223240",
+        tartiary: "#C47D57",
+      },
       fontFamily: {
         fraunces144: ["Fraunces144ptsupersoft", "sans-serif"],
         Fraunces144ptSuperSoft: [

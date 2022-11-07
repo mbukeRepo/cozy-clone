@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Burger from "../UI/vectors/burger";
+import Burger from "../UI/vectors/Burger";
 
 export default function Header() {
   return (

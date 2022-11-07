@@ -61,11 +61,39 @@ export default function Home() {
             experience.
           </p>
           <div>
-            <button className="bg-primary font-Geomanist-Bold text-white px-10 pt-3 pb-4 rounded-lg">
-              WHY WE DO WHAT WE DO
-            </button>
+            <Button>WHY WE DO WHAT WE DO</Button>
           </div>
           <CompanyList />
+        </div>
+      </div>
+      <div className="bg-lightGray px-8 sm:px-12 py-16">
+        <h3 className="text-secondary relative after:absolute after:content-[''] after:w-8 after:h-1 after:bg-lightOrange after:-bottom-6 after:left-1/2 after:-translate-x-1/2 text-3xl sm:text-4xl font-[600] font-Fraunces72ptsupersoft">
+          ❤️ from our clients
+        </h3>
+        <div className="flex flex-col gap-12 mt-12">
+          <div className="bg-[url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61bbc96064c698bc567db060_noise10.webp')] bg-[#223240] flex flex-col py-16 px-8 rounded-[80%_80%_0_100%]">
+            <div className="border-2 self-center  border-white rounded-2xl w-16 h-16 overflow-hidden">
+              <Image
+                width={80}
+                height={80}
+                src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b770510976c9e1777077786_susie.webp"
+                alt="susie"
+              />
+            </div>
+            <div className="font-Fraunces72ptsupersoft flex flex-col gap-6 items-end">
+              <p className="text-lightOrange text-end">
+                “One of the top design professionals…”
+              </p>
+              <p className="text-[#D7D2CB] text-end">
+                I connect with hundreds of talented folks on a regular basis,
+                and I can say with complete confidence that Lee is one of the
+                best UX designers in Aquent/Vitamin T's global network.
+              </p>
+              <p className="text-sm font-Geomanist-Regular text-[#D7D2CB]">
+                SUSIE POLLASKY
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -11,6 +11,8 @@ module.exports = {
         primary: "#A44F2C",
         secondary: "#223240",
         tartiary: "#C47D57",
+        lightGray: "#E4DED5",
+        lightOrange: "#d4ac8e",
       },
       fontFamily: {
         fraunces144: ["Fraunces144ptsupersoft", "sans-serif"],

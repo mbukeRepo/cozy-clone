@@ -4,7 +4,7 @@ import Link from "next/link";
 import SocialList from "./Social/SocialList";
 export default function Footer() {
   return (
-    <footer className="font-Fraunces72ptsupersoft flex flex-col items-center py-12 px-4 bg-[#E4DED5]">
+    <footer className="font-Fraunces72ptsupersoft flex flex-col items-center py-12 px-4 bg-lightGray">
       <div className="border-b border-tartiary flex flex-col items-center gap-4">
         <div className="w-[4.7rem]">
           <Image
@@ -43,9 +43,7 @@ export default function Footer() {
                 alt={"san diego"}
               />
             </div>
-            <p className="text-[#B9104B] text-sm">
-              San Diego Digital Designers
-            </p>
+            <p className="text-rose text-sm">San Diego Digital Designers</p>
           </div>
           <div className="flex justify-center py-4 w-full">
             <SocialList />

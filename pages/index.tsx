@@ -23,17 +23,17 @@ export default function Home() {
         />
         <div className="flex flex-col px-6 py-8">
           <div className="flex flex-col gap-6">
-            <h1 className="font-Fraunces144ptSuperSoft font-[900] leading-[3.3rem] text-[#d4ac8e] text-[3.25rem]">
+            <h1 className="font-Fraunces144ptSuperSoft font-[900] leading-[3.3rem] text-lightOrange text-[3.25rem]">
               Your design
               <br /> team for the
               <br /> cost of a salary.
             </h1>
-            <p className="text-[1.5rem] text-[#B2B0AB] font-[600] font-Fraunces72ptsupersoft">
+            <p className="text-[1.5rem] text-moreLessGray font-[600] font-Fraunces72ptsupersoft">
               Full-service design support that growing B2B and non-profit
               organizations need. Are you strained because you should have a
               design team but you don't?
             </p>
-            <Button className="bg-[url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61bbc96064c698bc567db060_noise10.webp')]">
+            <Button className="bg-noise">
               SEE HOW WE WORK & WHAT WE CAN DO
             </Button>
           </div>
@@ -80,7 +80,7 @@ export default function Home() {
           ❤️ from our clients
         </h3>
         <div className="flex flex-col gap-12 mt-12">
-          <div className="bg-[url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61bbc96064c698bc567db060_noise10.webp')] bg-[#223240] flex flex-col py-16 px-8 rounded-[80%_80%_0_100%]">
+          <div className="bg-noise bg-secondary flex flex-col py-16 px-8 rounded-[80%_80%_0_100%]">
             <div className="border-2 self-center  border-white rounded-2xl w-16 h-16 overflow-hidden">
               <Image
                 width={80}
@@ -93,91 +93,91 @@ export default function Home() {
               <p className="text-lightOrange text-end">
                 “One of the top design professionals…”
               </p>
-              <p className="text-[#D7D2CB] text-end">
+              <p className="text-lessLightGray text-end">
                 I connect with hundreds of talented folks on a regular basis,
                 and I can say with complete confidence that Lee is one of the
                 best UX designers in Aquent/Vitamin T's global network.
               </p>
-              <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-[#D7D2CB]">
+              <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-lessLightGray">
                 SUSIE POLLASKY
               </p>
             </div>
           </div>
-          <div className="bg-[url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61bbc96064c698bc567db060_noise10.webp')] bg-[#2d4850] flex flex-col py-16 px-12 rounded-[100%_100%_50%_0%]">
-            <div className="border-2 relative bg-[#2d4850]  self-center  border-white rounded-2xl w-16 h-16 overflow-hidden">
+          <div className="bg-noise bg-lessDarkBlue flex flex-col py-16 px-12 rounded-[100%_100%_50%_0%]">
+            <div className="border-2 relative bg-lessDarkBlue  self-center  border-white rounded-2xl w-16 h-16 overflow-hidden">
               <Image
                 width={80}
                 height={80}
                 src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb5a50fc9931734c91126_1517679695814.webp"
                 alt="susie"
-                className="bg-[#2d4850]"
+                className="bg-lessDarkBlue"
               />
-              <div className="absolute top-0 left-0 w-full h-full bg-[#2d4850] bg-opacity-40"></div>
+              <div className="absolute top-0 left-0 w-full h-full bg-lessDarkBlue bg-opacity-40"></div>
             </div>
             <div className="font-Fraunces72ptsupersoft flex flex-col gap-6 items-start">
               <p className="text-lightOrange text-start">
                 “One of the top design professionals…”
               </p>
-              <p className="text-[#D7D2CB] text-start">
+              <p className="text-lessLightGray text-start">
                 I connect with hundreds of talented folks on a regular basis,
                 and I can say with complete confidence that Lee is one of the
                 best UX designers in Aquent/Vitamin T's global network.
               </p>
-              <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-[#D7D2CB]">
+              <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-lessLightGray">
                 SUSIE POLLASKY
               </p>
             </div>
           </div>
-          <div className="bg-[url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61bbc96064c698bc567db060_noise10.webp')] bg-[#c47d57] flex flex-col py-16 px-12 rounded-[100%_0%_60%_60%]">
-            <div className="border-2 relative bg-[#2d4850]  self-end  border-white rounded-2xl w-16 h-16 overflow-hidden">
+          <div className="bg-noise bg-darkOrange flex flex-col py-16 px-12 rounded-[100%_0%_60%_60%]">
+            <div className="border-2 relative bg-lessDarkBlue  self-end  border-white rounded-2xl w-16 h-16 overflow-hidden">
               <Image
                 width={80}
                 height={80}
                 src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb5a50fc9931734c91126_1517679695814.webp"
                 alt="susie"
-                className="bg-[#2d4850]"
+                className="bg-lessDarkBlue"
               />
-              <div className="absolute top-0 left-0 w-full h-full bg-[#2d4850] bg-opacity-40"></div>
+              <div className="absolute top-0 left-0 w-full h-full bg-lessDarkBlue bg-opacity-40"></div>
             </div>
             <div className="font-Fraunces72ptsupersoft flex flex-col gap-6 items-end">
               <p className="text-lightOrange text-end">
                 “One of the top design professionals…”
               </p>
-              <p className="text-[#D7D2CB] text-end">
+              <p className="text-lessLightGray text-end">
                 I connect with hundreds of talented folks on a regular basis.
               </p>
-              <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-[#D7D2CB]">
+              <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-lessLightGray">
                 SUSIE POLLASKY
               </p>
             </div>
           </div>
-          <div className="bg-[url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61bbc96064c698bc567db060_noise10.webp')] bg-[#c47d57] flex flex-col py-16 px-12 rounded-[0%_100%_60%_60%]">
-            <div className="border-2 relative bg-[#2d4850]  self-start  border-white rounded-2xl w-16 h-16 overflow-hidden">
+          <div className="bg-noise bg-moreDarkOrange flex flex-col py-16 px-12 rounded-[0%_100%_60%_60%]">
+            <div className="border-2 relative bg-lessDarkBlue  self-start  border-white rounded-2xl w-16 h-16 overflow-hidden">
               <Image
                 width={80}
                 height={80}
                 src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb5a50fc9931734c91126_1517679695814.webp"
                 alt="susie"
-                className="bg-[#2d4850]"
+                className="bg-lessDarkBlue"
               />
-              <div className="absolute top-0 left-0 w-full h-full bg-[#2d4850] bg-opacity-40"></div>
+              <div className="absolute top-0 left-0 w-full h-full bg-lessDarkBlue bg-opacity-40"></div>
             </div>
             <div className="font-Fraunces72ptsupersoft flex flex-col gap-6 items-start">
               <p className="text-lightOrange text-start">
                 “One of the top design professionals…”
               </p>
-              <p className="text-[#D7D2CB] text-start">
+              <p className="text-lessLightGray text-start">
                 I connect with hundreds of talented folks on a regular basis.
               </p>
-              <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-[#D7D2CB]">
+              <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-lessLightGray">
                 SUSIE POLLASKY
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section className="bg-[#223240] flex flex-col gap-8 py-16 px-6">
-        <h3 className="font-Fraunces72ptsupersoft text-center text-[#d4ac8e] text-[1.3rem]">
+      <section className="bg-secondary flex flex-col gap-8 py-16 px-6">
+        <h3 className="font-Fraunces72ptsupersoft text-center text-lightOrange text-[1.3rem]">
           More than 150 happy clients
         </h3>
         <ClientList />
@@ -203,13 +203,13 @@ export default function Home() {
             />
           </div>
           <div className="font-Fraunces72ptsupersoft flex flex-col gap-4">
-            <h3 className="text-[#E4DED5] text-4xl font-bold">
+            <h3 className="text-lessGray text-4xl font-bold">
               Psst…
               <br /> are you a designer?
             </h3>
-            <h5 className="text-[#C4BFB8] font-bold text-[0.94rem] leading-[1.5rem]">
+            <h5 className="text-moreLightGray font-bold text-[0.94rem] leading-[1.5rem]">
               Consider joining our{" "}
-              <span className="text-[#B9104B]">San Diego Design Designers</span>{" "}
+              <span className="text-rose">San Diego Design Designers</span>{" "}
               group. More than 700 people, we meet online via Slack and in
               person at social events around the city. It’s a great opportunity
               to share ideas, get inspired, find support, and celebrate great
@@ -218,7 +218,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-[#B55730] py-16 px-8 font-Fraunces72ptsupersoft text-white">
+      <section className="bg-darkOrange py-16 px-8 font-Fraunces72ptsupersoft text-white">
         <h3 className="font-Fraunces72ptsupersoft text-[2.6rem] leading-[2.8rem] font-bold ">
           🙋 How can we help?
         </h3>

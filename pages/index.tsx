@@ -47,40 +47,52 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="min-h-screen py-12 px-12 min-w-screen flex flex-col gap-12 complex-background">
-        <div className="text-xl tracking-[0.2rem]">🌴🐻🇺🇸</div>
-        <div className="flex flex-col gap-6">
-          <h2 className="font-[600] font-Fraunces72ptsupersoft text-secondary text-5xl">
-            Get Cozy
-          </h2>
-          <h4 className="font-Fraunces72ptsupersoft text-2xl text-tartiary">
-            Design & digital marketing in San Diego, California
-          </h4>
-        </div>
-        <div className="flex flex-col gap-4">
-          <p className="font-Fraunces72ptsupersoft text-secondary">
-            We’re an award-winning design shop based in South Park, San Diego.
-            We efficiently combine the best parts of user experience (UX) with
-            creative design and execution to create effective collateral that
-            connects with the human beings who interact with them. 🤯
-          </p>
-          <p className="font-Fraunces72ptsupersoft text-secondary">
-            No epic quests for inspiration. Just pragmatic collaboration and
-            efficient results from big-agency graduates with decades of
-            experience.
-          </p>
-          <div>
-            <Button>WHY WE DO WHAT WE DO</Button>
+      <section className="min-h-screen py-12 px-12 grid grid-cols-1 gap-12 sm:grid-cols-2 min-w-screen  complex-background">
+        <div className="flex flex-col gap-12">
+          <div className="text-xl tracking-[0.2rem]">🌴🐻🇺🇸</div>
+          <div className="flex flex-col gap-6">
+            <h2 className="font-[600] font-Fraunces72ptsupersoft text-secondary text-5xl">
+              Get Cozy
+            </h2>
+            <h4 className="font-Fraunces72ptsupersoft text-2xl text-tartiary">
+              Design & digital marketing in San Diego, California
+            </h4>
           </div>
-          <CompanyList />
+          <div className="flex flex-col gap-4">
+            <p className="font-Fraunces72ptsupersoft text-secondary">
+              We’re an award-winning design shop based in South Park, San Diego.
+              We efficiently combine the best parts of user experience (UX) with
+              creative design and execution to create effective collateral that
+              connects with the human beings who interact with them. 🤯
+            </p>
+            <p className="font-Fraunces72ptsupersoft text-secondary">
+              No epic quests for inspiration. Just pragmatic collaboration and
+              efficient results from big-agency graduates with decades of
+              experience.
+            </p>
+            <div className="w-3/5">
+              <Button>WHY WE DO WHAT WE DO</Button>
+            </div>
+          </div>
         </div>
+        <CompanyList />
       </section>
-      <section className="bg-lightGray px-8 sm:px-12 py-16">
+      <section className="bg-lightGray flex flex-col items-center px-8 sm:px-12 py-16">
         <h3 className="text-secondary relative after:absolute after:content-[''] after:w-8 after:h-1 after:bg-lightOrange after:-bottom-6 after:left-1/2 after:-translate-x-1/2 text-3xl sm:text-4xl font-[600] font-Fraunces72ptsupersoft">
           ❤️ from our clients
         </h3>
-        <div className="flex flex-col gap-12 mt-12">
-          <div className="bg-noise bg-secondary flex flex-col py-16 px-8 rounded-[80%_80%_0_100%]">
+        <div className="relative grid grid-cols-1 sm:grid-cols-[repeat(2,_minmax(320px,_1fr))] sm:w-3/5 justify-center gap-12 sm:gap-4 mt-12">
+          <div className="absolute top-1/2 left-1/2 h-16 w-16 -translate-x-1/2 translate-y-1/2 rounded-full bg-white flex justify-center items-center">
+            <Image
+              src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b60dd35a56ec72df4703e47_chat-icon-black.svg"
+              width={32}
+              height={32}
+              alt=""
+            />
+            <span className="absolute  w-[120%] h-[120%] border border-white rounded-full "></span>
+            <span className="absolute  w-[140%] h-[140%] border border-white rounded-full "></span>
+          </div>
+          <div className="bg-noise bg-secondary self-end flex max-h-[24rem] flex-col py-16 px-8 rounded-[80%_80%_0_100%]">
             <div className="border-2 self-center  border-white rounded-2xl w-16 h-16 overflow-hidden">
               <Image
                 width={80}
@@ -89,7 +101,7 @@ export default function Home() {
                 alt="susie"
               />
             </div>
-            <div className="font-Fraunces72ptsupersoft flex flex-col gap-6 items-end">
+            <div className="font-Fraunces72ptsupersoft flex flex-col gap-6 sm:gap-2 items-end">
               <p className="text-lightOrange text-end">
                 “One of the top design professionals…”
               </p>
@@ -103,7 +115,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="bg-noise bg-lessDarkBlue flex flex-col py-16 px-12 rounded-[100%_100%_50%_0%]">
+          <div className="bg-noise bg-lessDarkBlue flex flex-col py-16 px-12 rounded-[100%_100%_50%_0%] sm:w-4/5">
             <div className="border-2 relative bg-lessDarkBlue  self-center  border-white rounded-2xl w-16 h-16 overflow-hidden">
               <Image
                 width={80}
@@ -128,7 +140,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="bg-noise bg-darkOrange flex flex-col py-16 px-12 rounded-[100%_0%_60%_60%]">
+          <div className="bg-noise bg-darkOrange flex flex-col py-16 px-12 rounded-[100%_0%_60%_60%] sm:max-w-[18rem] sm:max-h-[24rem] justify-self-end">
             <div className="border-2 relative bg-lessDarkBlue  self-end  border-white rounded-2xl w-16 h-16 overflow-hidden">
               <Image
                 width={80}

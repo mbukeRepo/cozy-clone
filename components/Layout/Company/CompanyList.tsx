@@ -42,15 +42,15 @@ export default function CompanyList() {
   return (
     <div className="flex flex-col items-center gap-5">
       <div className="flex flex-col items-center gap-5">
-        {companies.slice(0, 4).map(({ imageURL, subtitle }) => (
-          <div>
+        {companies.slice(0, 4).map(({ imageURL, subtitle }, idx) => (
+          <div key={idx}>
             <Image src={imageURL} width={140} height={140} alt="company" />
           </div>
         ))}
       </div>
       <div className="flex flex-col items-center gap-5">
-        {companies.slice(4).map(({ imageURL, subtitle }) => (
-          <div className="flex flex-col items-center gap-3">
+        {companies.slice(4).map(({ imageURL, subtitle }, idx) => (
+          <div className="flex flex-col items-center gap-3" key={idx}>
             <div>
               <Image src={imageURL} width={140} height={140} alt="company" />
             </div>

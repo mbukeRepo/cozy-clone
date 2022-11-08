@@ -36,6 +36,7 @@ export default function SocialList() {
     <div className="flex gap-1">
       {icons.map(({ icon, bg }, idx) => (
         <div
+          key={idx}
           className={`${bg} flex p-1 items-center rounded-sm justify-center w-5 h-5`}
         >
           <Image

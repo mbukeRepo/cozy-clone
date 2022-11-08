@@ -31,7 +31,7 @@ export default function Home() {
             <p className="text-[1.5rem] text-moreLessGray font-[600] font-Fraunces72ptsupersoft">
               Full-service design support that growing B2B and non-profit
               organizations need. Are you strained because you should have a
-              design team but you don't?
+              design team but you don&apos;t?
             </p>
             <Button className="bg-noise">
               SEE HOW WE WORK & WHAT WE CAN DO
@@ -96,7 +96,7 @@ export default function Home() {
               <p className="text-lessLightGray text-end">
                 I connect with hundreds of talented folks on a regular basis,
                 and I can say with complete confidence that Lee is one of the
-                best UX designers in Aquent/Vitamin T's global network.
+                best UX designers in Aquent/Vitamin T&apos;s global network.
               </p>
               <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-lessLightGray">
                 SUSIE POLLASKY
@@ -121,7 +121,7 @@ export default function Home() {
               <p className="text-lessLightGray text-start">
                 I connect with hundreds of talented folks on a regular basis,
                 and I can say with complete confidence that Lee is one of the
-                best UX designers in Aquent/Vitamin T's global network.
+                best UX designers in Aquent/Vitamin T&apos;s global network.
               </p>
               <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-lessLightGray">
                 SUSIE POLLASKY

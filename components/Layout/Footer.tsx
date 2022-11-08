@@ -4,8 +4,8 @@ import Link from "next/link";
 import SocialList from "./Social/SocialList";
 export default function Footer() {
   return (
-    <footer className="font-Fraunces72ptsupersoft flex flex-col items-center py-12 px-4 bg-lightGray">
-      <div className="border-b border-tartiary flex flex-col items-center gap-4">
+    <footer className="font-Fraunces72ptsupersoft flex flex-col px-4 py-12  bg-lightGray">
+      <div className="border-b border-tartiary flex flex-col items-center gap-4 px-6">
         <div className="w-[4.7rem]">
           <Image
             src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8782865afd27755f3cb5bd_Cozy_logo_denim.svg"
@@ -50,7 +50,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="py-6">
+      <div className="py-6 flex gap-3 px-8">
         <div className="flex flex-col items-center gap-2">
           <div>
             <Image

@@ -87,113 +87,115 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-lightGray flex flex-col items-center px-8 sm:px-12 py-16">
-        <h3 className="text-secondary relative after:absolute after:content-[''] after:w-8 after:h-1 after:bg-lightOrange after:-bottom-6 after:left-1/2 after:-translate-x-1/2 text-3xl sm:text-4xl font-[600] font-Fraunces72ptsupersoft">
-          ❤️ from our clients
-        </h3>
-        <div className="relative grid grid-cols-1 sm:grid-cols-[repeat(2,_minmax(320px,_1fr))] px-0 sm:px-12 sm:w-3/5 justify-center gap-12 sm:gap-4 mt-12">
-          <div className="absolute  hidden top-1/2 left-1/2 h-16 w-16 -translate-x-1/2 translate-y-[45%] rounded-full bg-white sm:flex justify-center items-center">
-            <Image
-              src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b60dd35a56ec72df4703e47_chat-icon-black.svg"
-              width={32}
-              height={32}
-              alt=""
-            />
-            <span className="absolute  w-[120%] h-[120%] border border-white rounded-full "></span>
-            <span className="absolute  w-[140%] h-[140%] border border-white rounded-full "></span>
-          </div>
-          <div className="bg-noise bg-secondary self-end flex max-h-[24rem] flex-col py-16 px-8 rounded-[80%_80%_0_100%]">
-            <div className="border-2 self-center  border-white rounded-2xl w-16 h-16 overflow-hidden">
+        <div className="container mx-auto flex flex-col items-center">
+          <h3 className="text-secondary relative after:absolute after:content-[''] after:w-8 after:h-1 after:bg-lightOrange after:-bottom-6 after:left-1/2 after:-translate-x-1/2 text-3xl sm:text-4xl font-[600] font-Fraunces72ptsupersoft">
+            ❤️ from our clients
+          </h3>
+          <div className="relative grid grid-cols-1 sm:grid-cols-[repeat(2,_minmax(320px,_1fr))] px-0 sm:px-12 sm:w-3/5 justify-center gap-12 sm:gap-4 mt-12">
+            <div className="absolute  hidden top-1/2 left-1/2 h-16 w-16 -translate-x-1/2 translate-y-[45%] rounded-full bg-white sm:flex justify-center items-center">
               <Image
-                width={80}
-                height={80}
-                src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b770510976c9e1777077786_susie.webp"
-                alt="susie"
+                src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b60dd35a56ec72df4703e47_chat-icon-black.svg"
+                width={32}
+                height={32}
+                alt=""
               />
+              <span className="absolute  w-[120%] h-[120%] border border-white rounded-full "></span>
+              <span className="absolute  w-[140%] h-[140%] border border-white rounded-full "></span>
             </div>
-            <div className="font-Fraunces72ptsupersoft flex flex-col gap-6 sm:gap-2 items-end">
-              <p className="text-lightOrange text-end">
-                “One of the top design professionals…”
-              </p>
-              <p className="text-lessLightGray text-end">
-                I connect with hundreds of talented folks on a regular basis,
-                and I can say with complete confidence that Lee is one of the
-                best UX designers in Aquent/Vitamin T&apos;s global network.
-              </p>
-              <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-lessLightGray">
-                SUSIE POLLASKY
-              </p>
+            <div className="bg-noise bg-secondary self-end flex max-h-[24rem] flex-col py-16 px-8 rounded-[80%_80%_0_100%]">
+              <div className="border-2 self-center  border-white rounded-2xl w-16 h-16 overflow-hidden">
+                <Image
+                  width={80}
+                  height={80}
+                  src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b770510976c9e1777077786_susie.webp"
+                  alt="susie"
+                />
+              </div>
+              <div className="font-Fraunces72ptsupersoft flex flex-col gap-6 sm:gap-2 items-end">
+                <p className="text-lightOrange text-end">
+                  “One of the top design professionals…”
+                </p>
+                <p className="text-lessLightGray text-end">
+                  I connect with hundreds of talented folks on a regular basis,
+                  and I can say with complete confidence that Lee is one of the
+                  best UX designers in Aquent/Vitamin T&apos;s global network.
+                </p>
+                <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-lessLightGray">
+                  SUSIE POLLASKY
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="bg-noise bg-lessDarkBlue flex flex-col py-16 px-12 rounded-[100%_100%_50%_0%] sm:w-4/5">
-            <div className="border-2 relative bg-lessDarkBlue  self-center  border-white rounded-2xl w-16 h-16 overflow-hidden">
-              <Image
-                width={80}
-                height={80}
-                src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb5a50fc9931734c91126_1517679695814.webp"
-                alt="susie"
-                className="bg-lessDarkBlue"
-              />
-              <div className="absolute top-0 left-0 w-full h-full bg-lessDarkBlue bg-opacity-40"></div>
+            <div className="bg-noise bg-lessDarkBlue flex flex-col py-16 px-12 rounded-[100%_100%_50%_0%] sm:w-4/5">
+              <div className="border-2 relative bg-lessDarkBlue  self-center  border-white rounded-2xl w-16 h-16 overflow-hidden">
+                <Image
+                  width={80}
+                  height={80}
+                  src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb5a50fc9931734c91126_1517679695814.webp"
+                  alt="susie"
+                  className="bg-lessDarkBlue"
+                />
+                <div className="absolute top-0 left-0 w-full h-full bg-lessDarkBlue bg-opacity-40"></div>
+              </div>
+              <div className="font-Fraunces72ptsupersoft flex flex-col gap-6 items-start">
+                <p className="text-lightOrange text-start">
+                  “One of the top design professionals…”
+                </p>
+                <p className="text-lessLightGray text-start">
+                  I connect with hundreds of talented folks on a regular basis,
+                  and I can say with complete confidence that .Lee is one of the
+                  best UX designers in Aquent/Vitamin.
+                </p>
+                <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-lessLightGray">
+                  SUSIE POLLASKY
+                </p>
+              </div>
             </div>
-            <div className="font-Fraunces72ptsupersoft flex flex-col gap-6 items-start">
-              <p className="text-lightOrange text-start">
-                “One of the top design professionals…”
-              </p>
-              <p className="text-lessLightGray text-start">
-                I connect with hundreds of talented folks on a regular basis,
-                and I can say with complete confidence that .Lee is one of the
-                best UX designers in Aquent/Vitamin.
-              </p>
-              <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-lessLightGray">
-                SUSIE POLLASKY
-              </p>
+            <div className="bg-noise bg-darkOrange flex flex-col py-16 px-12 rounded-[100%_0%_60%_60%] sm:max-w-[18rem] sm:max-h-[24rem] justify-self-end">
+              <div className="border-2 relative bg-lessDarkBlue  self-end  border-white rounded-2xl w-16 h-16 overflow-hidden">
+                <Image
+                  width={80}
+                  height={80}
+                  src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb5a50fc9931734c91126_1517679695814.webp"
+                  alt="susie"
+                  className="bg-lessDarkBlue"
+                />
+                <div className="absolute top-0 left-0 w-full h-full bg-lessDarkBlue bg-opacity-40"></div>
+              </div>
+              <div className="font-Fraunces72ptsupersoft flex flex-col gap-6 items-end">
+                <p className="text-lightOrange text-end">
+                  “One of the top design professionals…”
+                </p>
+                <p className="text-lessLightGray text-end">
+                  I connect with hundreds of talented folks on a regular basis.
+                </p>
+                <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-lessLightGray">
+                  SUSIE POLLASKY
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="bg-noise bg-darkOrange flex flex-col py-16 px-12 rounded-[100%_0%_60%_60%] sm:max-w-[18rem] sm:max-h-[24rem] justify-self-end">
-            <div className="border-2 relative bg-lessDarkBlue  self-end  border-white rounded-2xl w-16 h-16 overflow-hidden">
-              <Image
-                width={80}
-                height={80}
-                src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb5a50fc9931734c91126_1517679695814.webp"
-                alt="susie"
-                className="bg-lessDarkBlue"
-              />
-              <div className="absolute top-0 left-0 w-full h-full bg-lessDarkBlue bg-opacity-40"></div>
-            </div>
-            <div className="font-Fraunces72ptsupersoft flex flex-col gap-6 items-end">
-              <p className="text-lightOrange text-end">
-                “One of the top design professionals…”
-              </p>
-              <p className="text-lessLightGray text-end">
-                I connect with hundreds of talented folks on a regular basis.
-              </p>
-              <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-lessLightGray">
-                SUSIE POLLASKY
-              </p>
-            </div>
-          </div>
-          <div className="bg-noise bg-moreDarkOrange flex flex-col py-16 px-12 rounded-[0%_100%_60%_60%]">
-            <div className="border-2 relative bg-lessDarkBlue  self-start  border-white rounded-2xl w-16 h-16 overflow-hidden">
-              <Image
-                width={80}
-                height={80}
-                src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb5a50fc9931734c91126_1517679695814.webp"
-                alt="susie"
-                className="bg-lessDarkBlue"
-              />
-              <div className="absolute top-0 left-0 w-full h-full bg-lessDarkBlue bg-opacity-40"></div>
-            </div>
-            <div className="font-Fraunces72ptsupersoft flex flex-col gap-6 items-start">
-              <p className="text-lightOrange text-start">
-                “One of the top design professionals…”
-              </p>
-              <p className="text-lessLightGray text-start">
-                I connect with hundreds of talented folks on a regular basis.
-                Lee is one of the best UX designers in.
-              </p>
-              <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-lessLightGray">
-                SUSIE POLLASKY
-              </p>
+            <div className="bg-noise bg-moreDarkOrange flex flex-col py-16 px-12 rounded-[0%_100%_60%_60%]">
+              <div className="border-2 relative bg-lessDarkBlue  self-start  border-white rounded-2xl w-16 h-16 overflow-hidden">
+                <Image
+                  width={80}
+                  height={80}
+                  src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb5a50fc9931734c91126_1517679695814.webp"
+                  alt="susie"
+                  className="bg-lessDarkBlue"
+                />
+                <div className="absolute top-0 left-0 w-full h-full bg-lessDarkBlue bg-opacity-40"></div>
+              </div>
+              <div className="font-Fraunces72ptsupersoft flex flex-col gap-6 items-start">
+                <p className="text-lightOrange text-start">
+                  “One of the top design professionals…”
+                </p>
+                <p className="text-lessLightGray text-start">
+                  I connect with hundreds of talented folks on a regular basis.
+                  Lee is one of the best UX designers in.
+                </p>
+                <p className="text-[0.56rem] tracking-[0.3rem] font-Geomanist-Regular font-bold text-lessLightGray">
+                  SUSIE POLLASKY
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -205,7 +207,7 @@ export default function Home() {
         <ClientList />
       </section>
       <section className="relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-full scale-[3.2]">
+        <div className="absolute top-0 left-0 w-full h-full scale-[3.2] lg:scale-[6] xl:scale-[12]">
           <video ref={videoRef} loop autoPlay muted className="w-full h-full">
             <source
               src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5c86da0e3af903761f6c302c_Black And White Video Of Man Infront Of The Computer-transcode.webm"
@@ -214,31 +216,33 @@ export default function Home() {
           </video>
         </div>
         <div className="relative z-20 bg-black bg-opacity-40 ">
-          <div className=" flex flex-col lg:flex-row gap-12 py-10 px-8 lg:w-[52rem] lg:justify-center lg:items-start sm:w-[48rem] mx-auto">
-            <div className="self-center lg:self-start">
-              <Image
-                src={
-                  "https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5c86db21b4d0ca56dee6a263_sddd_lockup_reverse.svg"
-                }
-                width={140}
-                height={120}
-                alt="san diego design team"
-                className="lg:w-48"
-              />
-            </div>
-            <div className="font-Fraunces72ptsupersoft flex font-bold text-white flex-col gap-4">
-              <h3 className="text-lessGray text-4xl font-bold">
-                Psst…
-                <br /> are you a designer?
-              </h3>
-              <h5 className="text-moreLightGray font-bold text-[0.94rem] leading-[1.5rem]">
-                Consider joining our{" "}
-                <span className="text-rose">San Diego Design Designers</span>{" "}
-                group. More than 700 people, we meet online via Slack and in
-                person at social events around the city. It’s a great
-                opportunity to share ideas, get inspired, find support, and
-                celebrate great design.
-              </h5>
+          <div className="relative container mx-auto">
+            <div className=" flex flex-col lg:flex-row gap-12 py-24 px-8 lg:w-[52rem] lg:justify-center lg:items-start sm:w-[48rem] mx-auto">
+              <div className="self-center lg:self-start">
+                <Image
+                  src={
+                    "https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5c86db21b4d0ca56dee6a263_sddd_lockup_reverse.svg"
+                  }
+                  width={140}
+                  height={120}
+                  alt="san diego design team"
+                  className="lg:w-48"
+                />
+              </div>
+              <div className="font-Fraunces72ptsupersoft flex font-bold text-white flex-col gap-4">
+                <h3 className="text-lessGray text-4xl font-bold">
+                  Psst…
+                  <br /> are you a designer?
+                </h3>
+                <h5 className="text-moreLightGray font-bold text-[0.94rem] leading-[1.5rem]">
+                  Consider joining our{" "}
+                  <span className="text-rose">San Diego Design Designers</span>{" "}
+                  group. More than 700 people, we meet online via Slack and in
+                  person at social events around the city. It’s a great
+                  opportunity to share ideas, get inspired, find support, and
+                  celebrate great design.
+                </h5>
+              </div>
             </div>
           </div>
         </div>

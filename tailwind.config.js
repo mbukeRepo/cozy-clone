@@ -23,6 +23,7 @@ module.exports = {
         darkOrange: "#c47d57",
         moreDarkOrange: "#A85330",
         lessLightGray: "#D7D2CB",
+        lessOrange: "#E4DED5",
       },
       backgroundImage: {
         noise:

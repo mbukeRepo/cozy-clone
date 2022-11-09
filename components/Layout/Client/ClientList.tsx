@@ -46,7 +46,7 @@ const clients = [
 ];
 export default function ClientList() {
   return (
-    <div className="flex flex-col gap-6 items-center">
+    <div className="flex flex-col lg:flex-row lg:justify-center gap-6 items-center">
       {clients.map(({ imageUrl, w, h }, idx) => (
         <div key={idx}>
           <Image src={imageUrl} width={w} height={h} alt="..." />

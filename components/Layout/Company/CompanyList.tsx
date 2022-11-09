@@ -40,7 +40,7 @@ const companies = [
 ];
 export default function CompanyList() {
   return (
-    <div className="flex flex-col sm:flex-row sm:justify-center items-center gap-5">
+    <div className="flex flex-row justify-center items-center gap-5">
       <div className="flex flex-col items-center gap-5">
         {companies.slice(0, 4).map(({ imageURL, subtitle }, idx) => (
           <div key={idx}>

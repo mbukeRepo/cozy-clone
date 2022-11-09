@@ -214,8 +214,8 @@ export default function Home() {
           </video>
         </div>
         <div className="relative z-20 bg-black bg-opacity-40 ">
-          <div className=" flex flex-col lg:flex-row gap-12 py-10 px-8 lg:w-[52rem] lg:justify-center sm:w-[48rem] mx-auto">
-            <div className="self-center">
+          <div className=" flex flex-col lg:flex-row gap-12 py-10 px-8 lg:w-[52rem] lg:justify-center lg:items-start sm:w-[48rem] mx-auto">
+            <div className="self-center lg:self-start">
               <Image
                 src={
                   "https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5c86db21b4d0ca56dee6a263_sddd_lockup_reverse.svg"
@@ -223,6 +223,7 @@ export default function Home() {
                 width={140}
                 height={120}
                 alt="san diego design team"
+                className="lg:w-48"
               />
             </div>
             <div className="font-Fraunces72ptsupersoft flex font-bold text-white flex-col gap-4">
@@ -243,7 +244,7 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-darkOrange py-16 px-8 font-Fraunces72ptsupersoft text-white">
-        <h3 className="font-Fraunces72ptsupersoft text-[2.6rem] leading-[2.8rem] font-bold ">
+        <h3 className="font-Fraunces72ptsupersoft flex justify-center text-[2.6rem] leading-[2.8rem] font-bold ">
           🙋 How can we help?
         </h3>
       </section>
